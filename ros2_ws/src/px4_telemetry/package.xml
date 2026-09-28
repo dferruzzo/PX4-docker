@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>px4_telemetry</name>
+  <version>0.1.0</version>
+  <description>Read and display PX4 SITL telemetry using ROS 2.</description>
+  <maintainer email="developer@example.com">PX4 developer</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_python</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>px4_msgs</exec_depend>
+  <export><build_type>ament_python</build_type></export>
+</package>
